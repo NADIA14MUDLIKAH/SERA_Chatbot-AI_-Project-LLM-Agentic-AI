@@ -199,19 +199,31 @@ SERA_Project/
 Dalam pengerjaan proyek ini, penulis memanfaatkan asisten AI (Claude dari Anthropic) pada beberapa bagian. Berikut pembagian antara bagian yang dibantu AI dan bagian yang dikerjakan secara mandiri.
 
 **Bagian yang Dibantu AI**
+
 **streamlit/app.py** : Membantu perancangan ulang tampilan web, meliputi tata letak, penyesuaian warna dengan logo, chat bubble, panel kontrol, tombol ide cepat, serta perbaikan pewarnaan gelembung percakapan.
+
 **src/prompts.py** : Membantu menyempurnakan system prompt, meliputi perluasan cakupan dari tanaman cabai ke berbagai tanaman, penyusunan alur konsultasi bertahap, aturan keamanan, dan contoh percakapan (few-shot).
+
 **data/knowledge_base.json** : Membantu menyusun draf perluasan basis pengetahuan dari 3 kasus awal (cabai) menjadi 32 kasus yang mencakup cabai, tomat, padi, jagung, dan panduan umum, serta menambahkan field baru berdasarkan pengetahuan agronomi umum.
+
 **src/knowledge_base.py dan src/conversation.py** : Membantu menambahkan mekanisme pemilihan kasus yang relevan serta pembatasan riwayat pesan untuk mencegah galat batas token (rate limit) pada API Groq.
+
 **src/chatbot.py** : Membantu memperbaiki logika penyimpanan riwayat agar tetap lengkap serta memastikan pesan galat API tidak tersimpan sebagai respons asisten.
+
 **Debugging dan Dokumentasi** : Membantu menelusuri dan menyelesaikan berbagai galat selama pengembangan, seperti kesalahan pembacaan JSON, format data, dan rate limit, serta membantu menyempurnakan kalimat dokumentasi.
 
 **Bagian yang Dikerjakan Mandiri**
+
 **Tema dan Konsep** :Menentukan tema asisten konsultasi pertanian serta merancang konsep utama konsultasi bertahap.
+
 **Kerangka Program** : Merancang struktur proyek dan membuat versi awal modul utama, yaitu config.py, llm_client.py, commands.py, chatbot.py, conversation.py, dan main.py.
+
 **Versi Awal Prompt dan Data** : Menyusun draf system prompt awal dan basis data awal pada knowledge_base.json.
+
 **Integrasi API** : Membuat akun dan API Key Groq, melakukan konfigurasi kredensial pada file .env, serta menguji konektivitas program dengan layanan API.
+
 **Pengujian Sistem** : Melakukan pengujian eksekusi program secara langsung, pengujian skenario percakapan multi-turn, serta validasi respons pada antarmuka terminal dan web.
+
 **Dokumentasi dan Repositori** : Mengambil cuplikan layar (screenshots), mengelola repositori GitHub, serta menyusun kerangka awal dokumen README.md.
 
 **Catatan**: Seluruh keluaran dari AI telah melalui proses peninjauan, pengujian secara langsung, dan penyesuaian mandiri sebelum diterapkan pada versi akhir proyek.
