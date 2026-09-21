@@ -1,0 +1,383 @@
+[
+  {
+    "tanaman": "Cabai",
+    "alias": ["cabe", "cabai", "lombok", "rawit", "cabe rawit", "cabai rawit", "cabe merah", "cabai merah"],
+    "kasus": [
+      {
+        "gejala_utama": "Daun menguning",
+        "sinonim_gejala": ["kuning", "kekuningan", "pucat", "daun bawah menguning"],
+        "pertanyaan_lanjutan": ["Apakah tanah sering basah atau tergenang?", "Sejak kapan daun mulai menguning?", "Bagian daun mana yang menguning (bawah atau atas)?"],
+        "kondisi": "Tanah sering basah / drainase buruk",
+        "kemungkinan": "Kelembapan media berlebih yang merusak akar (Busuk Akar)",
+        "ciri_pembeda": "Daun bagian bawah menguning lebih dulu, tanah becek atau tergenang, akar tampak coklat dan lembek. Tanaman biasanya tidak layu mendadak.",
+        "saran": ["Periksa drainase saluran air", "Hindari penyiraman berlebihan", "Pastikan tidak ada genangan air di sekitar pangkal tanaman"],
+        "pencegahan": ["Buat bedengan lebih tinggi dan parit pembuangan air", "Gunakan mulsa agar tanah tidak terlalu lembap saat hujan"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Daun menguning",
+        "sinonim_gejala": ["kuning", "kekuningan", "pucat", "daun lemas"],
+        "pertanyaan_lanjutan": ["Apakah tanah terasa sangat kering?", "Bagaimana intensitas penyiramannya?"],
+        "kondisi": "Tanah kering / kurang air",
+        "kemungkinan": "Kekurangan nutrisi akibat dehidrasi pada media tanam",
+        "ciri_pembeda": "Tanah retak atau kering, daun tampak lemas terutama siang hari dan membaik setelah disiram.",
+        "saran": ["Lakukan penyiraman secara rutin dengan takaran tepat", "Evaluasi jadwal pemupukan lanjutan"],
+        "pencegahan": ["Pasang mulsa agar tanah tidak cepat kering", "Siram pada pagi atau sore hari"],
+        "urgensi": "rendah"
+      },
+      {
+        "gejala_utama": "Daun menguning",
+        "sinonim_gejala": ["kuning merata", "daun tua menguning", "tanaman kurus", "tanaman kerdil"],
+        "pertanyaan_lanjutan": ["Apakah yang menguning daun tua di bagian bawah, dan warnanya merata?", "Kapan terakhir kali tanaman dipupuk?", "Apakah pertumbuhan tanaman terlihat lambat atau kerdil?"],
+        "kondisi": "Daun tua menguning merata, tanah tidak becek, pertumbuhan lambat, sudah lama tidak dipupuk",
+        "kemungkinan": "Kekurangan unsur hara, terutama nitrogen",
+        "ciri_pembeda": "Menguning dari daun tua ke daun muda secara merata dan perlahan, bukan bercak. Tanah tidak becek dan tidak ada tanda hama.",
+        "saran": ["Berikan pupuk sesuai anjuran dosis pada kemasan atau rekomendasi penyuluh setempat", "Tambahkan kompos atau pupuk kandang matang di sekitar tanaman", "Beri pupuk bertahap dan berimbang, jangan sekaligus banyak"],
+        "pencegahan": ["Buat jadwal pemupukan rutin sejak awal tanam", "Lakukan uji tanah jika memungkinkan"],
+        "urgensi": "rendah"
+      },
+      {
+        "gejala_utama": "Daun keriting",
+        "sinonim_gejala": ["kriting", "mengkerut", "menggulung", "melengkung"],
+        "pertanyaan_lanjutan": ["Apakah terdapat serangga kecil (kutu/tungau) di permukaan bawah daun?", "Apakah daun melengkung ke atas atau ke bawah?"],
+        "kondisi": "Terdapat kutu daun atau tungau",
+        "kemungkinan": "Serangan hama (Kutu Daun/Aphids atau Tungau)",
+        "ciri_pembeda": "Kutu daun tampak berkelompok, kecil, dan sering ditemani semut atau cairan lengket. Tungau sangat kecil hampir tak terlihat, daun mengecil, melengkung ke bawah, dan tampak mengkilap atau kecoklatan.",
+        "saran": ["Semprot dengan air bertekanan rendah untuk merontokkan hama", "Gunakan pestisida nabati seperti ekstrak mimba (neem oil)", "Pisahkan tanaman yang terinfeksi parah agar tidak menular"],
+        "pencegahan": ["Periksa bagian bawah daun secara rutin", "Bersihkan gulma di sekitar tanaman"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Daun keriting dan menguning terang disertai tanaman kerdil",
+        "sinonim_gejala": ["keriting kuning", "daun muda kuning cerah", "tanaman tidak tumbuh", "kerdil", "ada kutu putih kecil terbang"],
+        "pertanyaan_lanjutan": ["Apakah daun muda di pucuk yang menguning cerah dan keriting?", "Apakah ada serangga putih sangat kecil yang terbang saat daun disentuh?"],
+        "kondisi": "Daun muda kuning terang dan keriting, tanaman kerdil, banyak serangga putih kecil (kutu kebul)",
+        "kemungkinan": "Penyakit virus kuning yang dibawa kutu kebul",
+        "ciri_pembeda": "Gejala dimulai dari daun muda, warnanya kuning terang, tanaman berhenti tumbuh, dan ada kutu kebul (serangga putih kecil) di bawah daun. Berbeda dengan kekurangan hara yang muncul di daun tua.",
+        "saran": ["Cabut tanaman yang parah, masukkan ke kantong plastik, lalu musnahkan jauh dari lahan", "Kendalikan kutu kebul dengan perangkap kuning dan pestisida nabati", "Jika serangan meluas, gunakan insektisida sesuai aturan pakai di kemasan dan hubungi penyuluh pertanian"],
+        "pencegahan": ["Tutup persemaian dengan kain kasa", "Gunakan mulsa plastik perak", "Pilih bibit yang sehat dan varietas yang toleran"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Daun keriting dengan bercak keperakan",
+        "sinonim_gejala": ["daun keperakan", "daun mengkilap perak", "pucuk mengeras", "bunga rontok", "serangga sangat kecil"],
+        "pertanyaan_lanjutan": ["Apakah ada bercak keperakan atau coklat pada daun dan bunga?", "Kalau bunga atau pucuk diketuk di atas kertas putih, apakah keluar serangga sangat kecil dan ramping?"],
+        "kondisi": "Bercak keperakan pada daun, serangga sangat kecil dan ramping muncul saat diketuk di kertas putih",
+        "kemungkinan": "Serangan hama thrips",
+        "ciri_pembeda": "Serangga ramping sangat kecil (sekitar 1-2 mm), bercak keperakan, pucuk mengeras, dan bunga atau buah muda mudah rontok.",
+        "saran": ["Pasang perangkap lekat berwarna biru atau kuning", "Bersihkan gulma di sekitar lahan", "Gunakan pestisida nabati terlebih dahulu; jika berat, gunakan insektisida sesuai aturan pakai dan ganti jenisnya secara bergiliran"],
+        "pencegahan": ["Pantau tanaman setiap 2-3 hari saat musim kemarau", "Pakai mulsa untuk mengurangi thrips di tanah"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Tanaman layu mendadak",
+        "sinonim_gejala": ["layu", "layu tiba-tiba", "loyo", "tanaman lemas", "daun hijau tapi layu"],
+        "pertanyaan_lanjutan": ["Apakah tanaman tetap layu sepanjang hari, atau segar lagi menjelang sore?", "Apakah daunnya masih hijau saat layu?", "Kalau batang dekat pangkal dipotong dan dicelupkan ke air bening, apakah keluar lendir putih seperti benang?"],
+        "kondisi": "Layu mendadak saat daun masih hijau, tetap layu seharian, batang keluar lendir putih di air bening",
+        "kemungkinan": "Penyakit layu bakteri",
+        "ciri_pembeda": "Layu cepat padahal daun masih hijau, tidak pulih meski disiram. Tes batang: keluar lendir putih keruh di air bening. Berbeda dengan layu Fusarium yang diawali daun bawah menguning.",
+        "saran": ["Cabut dan musnahkan tanaman sakit, jangan dijadikan kompos", "Jangan biarkan air dari tanaman sakit mengalir ke tanaman sehat", "Bersihkan alat yang dipakai dengan air panas atau disinfektan", "Jangan tanam cabai, tomat, terong, atau kentang di lahan yang sama untuk sementara; ganti dengan jagung atau padi"],
+        "pencegahan": ["Rotasi tanaman dengan yang tidak sefamili", "Perbaiki drainase dan hindari luka pada akar saat menyiangi", "Pilih bibit sehat dan varietas yang lebih tahan"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Tanaman layu",
+        "sinonim_gejala": ["layu bertahap", "layu sebelah", "daun bawah kuning lalu layu", "layu fusarium"],
+        "pertanyaan_lanjutan": ["Apakah daun bagian bawah menguning dulu sebelum layu?", "Kalau batang dibelah, apakah bagian dalamnya berwarna coklat?"],
+        "kondisi": "Daun bawah menguning dulu lalu layu bertahap atau sebelah, bagian dalam batang coklat",
+        "kemungkinan": "Penyakit layu jamur (Fusarium)",
+        "ciri_pembeda": "Layu berjalan bertahap, sering hanya sebelah sisi tanaman, dan jaringan dalam batang berwarna coklat. Tanah cenderung lembap atau asam.",
+        "saran": ["Cabut dan musnahkan tanaman sakit", "Perbaiki drainase lahan", "Periksa keasaman tanah dan sesuaikan dengan anjuran penyuluh setempat"],
+        "pencegahan": ["Lakukan rotasi tanaman", "Gunakan bibit sehat dan media semai yang bersih"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Tanaman layu",
+        "sinonim_gejala": ["layu siang hari", "segar lagi sore", "kepanasan", "kekurangan air"],
+        "pertanyaan_lanjutan": ["Apakah tanaman segar kembali pada sore atau pagi hari?", "Kapan terakhir tanaman disiram, dan apakah tanahnya kering?"],
+        "kondisi": "Layu di siang hari dan segar kembali sore atau pagi, tanah kering",
+        "kemungkinan": "Kekurangan air atau cekaman panas",
+        "ciri_pembeda": "Layunya hanya sementara. Jika sore hari tanaman segar kembali, biasanya bukan penyakit.",
+        "saran": ["Siram pada pagi atau sore hari hingga tanah lembap secukupnya", "Pasang mulsa untuk menjaga kelembapan tanah"],
+        "pencegahan": ["Buat jadwal penyiraman rutin", "Beri naungan sementara saat cuaca sangat panas"],
+        "urgensi": "rendah"
+      },
+      {
+        "gejala_utama": "Buah busuk atau bercak cekung",
+        "sinonim_gejala": ["buah busuk", "patek", "buah bercak hitam", "buah mengering", "buah keriput"],
+        "pertanyaan_lanjutan": ["Apakah bercak pada buah cekung dan berwarna coklat atau hitam?", "Apakah gejala muncul dan menyebar cepat saat musim hujan atau lembap?"],
+        "kondisi": "Bercak cekung coklat/hitam pada buah, buah mengering keriput, menyebar saat lembap",
+        "kemungkinan": "Penyakit antraknosa (patek) akibat jamur",
+        "ciri_pembeda": "Bercak cekung pada buah yang makin melebar, kadang tampak lingkaran atau bintik hitam kecil. Sering muncul saat musim hujan atau buah terlalu lama di pohon.",
+        "saran": ["Petik dan musnahkan buah yang sakit, termasuk yang jatuh ke tanah", "Kurangi kelembapan dengan mengatur jarak tanam dan memangkas daun yang terlalu rimbun", "Jika serangan meluas, gunakan fungisida sesuai aturan pakai di kemasan dan hubungi penyuluh pertanian"],
+        "pencegahan": ["Panen tepat waktu", "Gunakan mulsa agar buah tidak menyentuh tanah", "Rotasi tanaman dan gunakan benih sehat"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Buah berlubang dan busuk",
+        "sinonim_gejala": ["buah bolong", "ada belatung", "ulat dalam buah", "buah rontok busuk", "lalat buah"],
+        "pertanyaan_lanjutan": ["Apakah di dalam buah ada larva atau belatung kecil berwarna putih?", "Apakah buah cepat busuk dan rontok?"],
+        "kondisi": "Buah berlubang kecil, ada belatung putih di dalamnya, cepat busuk dan rontok",
+        "kemungkinan": "Serangan lalat buah",
+        "ciri_pembeda": "Ada titik tusukan kecil pada kulit buah dan larva putih tanpa kaki di dalamnya, bukan ulat berwarna.",
+        "saran": ["Kumpulkan buah yang terserang dan musnahkan dengan dikubur dalam atau dimasukkan kantong plastik tertutup", "Pasang perangkap atraktan lalat buah", "Panen lebih awal dan tepat waktu"],
+        "pencegahan": ["Bersihkan sisa buah busuk di lahan", "Pantau kebun rutin saat buah mulai matang"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Bunga atau buah muda rontok",
+        "sinonim_gejala": ["bunga rontok", "buah kecil rontok", "tidak jadi buah", "gugur bunga"],
+        "pertanyaan_lanjutan": ["Apakah cuaca belakangan sangat panas atau hujan lebat?", "Apakah tanaman banyak daun tapi sedikit bunga (mungkin pupuk terlalu banyak)?"],
+        "kondisi": "Bunga atau buah muda rontok saat cuaca ekstrem, pupuk nitrogen terlalu banyak, atau air tidak teratur",
+        "kemungkinan": "Cekaman lingkungan (panas, hujan lebat, air tidak teratur) atau pemupukan tidak seimbang; bisa juga akibat thrips",
+        "ciri_pembeda": "Jika ada serangga sangat kecil pada bunga, curigai thrips. Jika tidak, biasanya karena cuaca atau perawatan.",
+        "saran": ["Jaga penyiraman tetap teratur", "Pasang mulsa untuk menstabilkan suhu dan kelembapan tanah", "Kurangi pupuk yang berlebih nitrogen, ganti dengan pupuk berimbang", "Periksa bunga untuk mengetahui apakah ada thrips"],
+        "pencegahan": ["Atur waktu tanam agar tidak bertepatan dengan cuaca ekstrem", "Beri naungan sementara saat cuaca terlalu panas"],
+        "urgensi": "rendah"
+      },
+      {
+        "gejala_utama": "Bercak pada daun",
+        "sinonim_gejala": ["daun bercak", "bercak coklat", "bercak bulat", "daun bolong bulat", "daun rontok"],
+        "pertanyaan_lanjutan": ["Apakah bercaknya bulat dengan bagian tengah keabu-abuan dan tepi coklat?", "Apakah daun yang bercak lama-lama menguning dan rontok, terutama saat musim hujan?"],
+        "kondisi": "Bercak bulat coklat berpusat abu-abu, daun menguning lalu rontok, sering saat lembap",
+        "kemungkinan": "Penyakit bercak daun akibat jamur (misalnya Cercospora)",
+        "ciri_pembeda": "Bercak berbentuk bulat dengan tepi tegas dan bagian tengah lebih pucat. Daun yang kena parah akhirnya rontok.",
+        "saran": ["Buang dan musnahkan daun yang bercak", "Kurangi kelembapan dengan mengatur jarak tanam dan memangkas daun terlalu rimbun", "Jika serangan meluas, gunakan fungisida sesuai aturan pakai di kemasan"],
+        "pencegahan": ["Hindari menyiram dari atas daun", "Bersihkan sisa tanaman dari lahan setelah panen"],
+        "urgensi": "sedang"
+      }
+    ]
+  },
+  {
+    "tanaman": "Tomat",
+    "alias": ["tomat"],
+    "kasus": [
+      {
+        "gejala_utama": "Tanaman layu mendadak",
+        "sinonim_gejala": ["layu", "layu tiba-tiba", "daun hijau tapi layu", "lemas"],
+        "pertanyaan_lanjutan": ["Apakah daunnya masih hijau saat layu dan tidak segar meski disiram?", "Kalau batang dekat pangkal dipotong dan dicelupkan ke air bening, apakah keluar lendir putih seperti benang?"],
+        "kondisi": "Layu mendadak saat daun masih hijau, batang keluar lendir putih di air bening",
+        "kemungkinan": "Penyakit layu bakteri",
+        "ciri_pembeda": "Layu cepat padahal daun masih hijau dan tidak pulih meski disiram. Tes batang: keluar lendir putih keruh di air bening.",
+        "saran": ["Cabut dan musnahkan tanaman sakit, jangan dijadikan kompos", "Bersihkan alat yang dipakai dengan air panas atau disinfektan", "Jangan menanam tomat, cabai, terong, atau kentang di lahan yang sama untuk sementara; ganti dengan jagung atau padi"],
+        "pencegahan": ["Lakukan rotasi tanaman", "Perbaiki drainase", "Gunakan bibit sehat"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Bercak coklat pada daun dengan lingkaran berlapis",
+        "sinonim_gejala": ["bercak coklat", "bercak seperti target", "daun tua bercak", "daun menguning rontok"],
+        "pertanyaan_lanjutan": ["Apakah bercak muncul mulai dari daun tua di bagian bawah?", "Apakah bercaknya berbentuk lingkaran berlapis seperti papan sasaran?"],
+        "kondisi": "Bercak coklat berlapis lingkaran pada daun tua, sekitar bercak menguning",
+        "kemungkinan": "Bercak daun awal (Alternaria) akibat jamur",
+        "ciri_pembeda": "Bercak muncul dari daun tua dan tampak berlapis-lapis. Menyebar lebih lambat dibanding hawar daun.",
+        "saran": ["Buang dan musnahkan daun yang bercak", "Jangan menyiram dari atas daun, siram di pangkal tanaman", "Jika serangan meluas, gunakan fungisida sesuai aturan pakai di kemasan"],
+        "pencegahan": ["Atur jarak tanam agar udara lancar", "Gunakan mulsa agar percikan tanah tidak mengenai daun", "Lakukan rotasi tanaman"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Daun dan batang berbercak basah kehitaman",
+        "sinonim_gejala": ["hawar", "busuk daun", "bercak basah", "daun seperti tersiram air panas", "buah bercak coklat"],
+        "pertanyaan_lanjutan": ["Apakah bercak tampak basah, hitam kecoklatan, dan cepat melebar?", "Apakah cuaca belakangan lembap, sering hujan, atau berkabut?", "Apakah ada lapisan putih seperti kapas di bawah daun saat pagi?"],
+        "kondisi": "Bercak basah hitam kecoklatan yang cepat meluas saat lembap, kadang ada lapisan putih di bawah daun",
+        "kemungkinan": "Penyakit hawar daun (Phytophthora), penyakit jamur yang cepat menular",
+        "ciri_pembeda": "Sangat cepat menyebar saat hujan atau berkabut. Bercak tampak basah dan luas, bukan bercak kecil berlapis.",
+        "saran": ["Segera buang dan musnahkan bagian tanaman yang sakit", "Kurangi kelembapan dengan mengatur jarak tanam dan memangkas daun bawah", "Gunakan fungisida sesuai aturan pakai di kemasan dan segera hubungi penyuluh pertanian karena penyakit ini cepat menular"],
+        "pencegahan": ["Hindari penyiraman dari atas daun", "Tanam pada musim yang tidak terlalu basah atau gunakan pelindung hujan", "Pilih varietas yang lebih tahan"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Ujung buah menghitam",
+        "sinonim_gejala": ["busuk ujung buah", "bawah buah hitam", "buah bagian bawah cekung", "bercak hitam di ujung buah"],
+        "pertanyaan_lanjutan": ["Apakah bercak hitam cekung ada di bagian bawah (ujung) buah?", "Apakah penyiraman tanaman sering tidak teratur (kadang kering, kadang basah sekali)?"],
+        "kondisi": "Bagian ujung buah menghitam dan cekung, air tidak teratur",
+        "kemungkinan": "Busuk ujung buah akibat kekurangan kalsium karena air tidak stabil (bukan penyakit menular)",
+        "ciri_pembeda": "Bercak hanya di ujung buah dan tidak menyebar ke tanaman lain. Sering muncul saat penyiraman tidak teratur.",
+        "saran": ["Siram dengan teratur dan konsisten", "Pasang mulsa untuk menjaga kelembapan tanah", "Beri sumber kalsium sesuai anjuran pada kemasan atau penyuluh setempat", "Buang buah yang sudah terkena"],
+        "pencegahan": ["Hindari pupuk yang terlalu banyak nitrogen", "Jaga kelembapan tanah tetap stabil"],
+        "urgensi": "rendah"
+      },
+      {
+        "gejala_utama": "Buah berlubang dan ada ulat",
+        "sinonim_gejala": ["buah bolong", "ada ulat dalam buah", "kotoran ulat", "buah busuk berlubang"],
+        "pertanyaan_lanjutan": ["Apakah ada ulat atau kotoran di dalam atau sekitar lubang buah?", "Apakah ulat berwarna hijau atau kecoklatan dan cukup besar?"],
+        "kondisi": "Buah berlubang, ada ulat besar dan kotoran di dalam atau sekitar lubang",
+        "kemungkinan": "Serangan ulat buah",
+        "ciri_pembeda": "Ulat cukup besar dan terlihat, lubang lebih besar dibanding tusukan lalat buah, dan ada kotoran ulat.",
+        "saran": ["Ambil dan matikan ulat yang terlihat, terutama pagi atau sore hari", "Buang dan musnahkan buah yang terserang", "Gunakan pestisida nabati atau pestisida hayati sesuai aturan pakai jika serangan meluas"],
+        "pencegahan": ["Periksa tanaman secara rutin", "Pasang perangkap atraktan jika tersedia", "Bersihkan gulma di sekitar tanaman"],
+        "urgensi": "sedang"
+      }
+    ]
+  },
+  {
+    "tanaman": "Padi",
+    "alias": ["padi", "sawah", "gabah"],
+    "kasus": [
+      {
+        "gejala_utama": "Bercak belah ketupat pada daun",
+        "sinonim_gejala": ["bercak mata", "bercak abu-abu", "leher malai patah", "malai hampa", "blas"],
+        "pertanyaan_lanjutan": ["Apakah bercak berbentuk belah ketupat dengan tengah abu-abu dan tepi coklat?", "Apakah bagian leher malai berwarna hitam dan mudah patah?", "Apakah pupuk urea yang diberikan cukup banyak dan cuaca lembap?"],
+        "kondisi": "Bercak belah ketupat abu-abu dengan tepi coklat, leher malai menghitam dan patah, cuaca lembap, pupuk nitrogen tinggi",
+        "kemungkinan": "Penyakit blas akibat jamur",
+        "ciri_pembeda": "Bentuk bercak khas belah ketupat. Pada fase malai, leher malai menghitam dan patah sehingga bulir hampa.",
+        "saran": ["Kurangi pupuk nitrogen yang berlebihan dan gunakan pemupukan berimbang", "Terapkan pengairan berselang jika memungkinkan", "Jika serangan meluas, gunakan fungisida sesuai aturan pakai di kemasan dan segera hubungi PPL"],
+        "pencegahan": ["Gunakan varietas yang tahan blas", "Gunakan benih sehat", "Tanam serempak dan atur jarak tanam"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Rumpun padi mengering melingkar",
+        "sinonim_gejala": ["hangus", "padi mengering", "kering melingkar", "ada wereng", "wereng coklat"],
+        "pertanyaan_lanjutan": ["Apakah pangkal batang padi dipenuhi serangga kecil berwarna coklat?", "Apakah area yang mengering meluas melingkar dari satu titik?"],
+        "kondisi": "Rumpun mengering menguning melingkar, banyak wereng kecil coklat di pangkal batang",
+        "kemungkinan": "Serangan wereng coklat (gejala hopperburn)",
+        "ciri_pembeda": "Pola kering melingkar yang meluas cepat, serangga kecil coklat di pangkal batang dekat air.",
+        "saran": ["Segera hubungi PPL atau petugas pengamat hama setempat karena serangan bisa meluas sangat cepat", "Keringkan sementara petak sawah yang terserang jika memungkinkan", "Jangan menyemprot sembarangan karena dapat membunuh musuh alami wereng"],
+        "pencegahan": ["Tanam serempak dan gunakan varietas tahan", "Hindari pupuk nitrogen berlebih", "Jaga populasi musuh alami seperti laba-laba"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Daun padi kuning oranye dan tanaman kerdil",
+        "sinonim_gejala": ["tungro", "daun kuning jingga", "anakan sedikit", "padi kerdil", "wereng hijau"],
+        "pertanyaan_lanjutan": ["Apakah daun menguning kuning-oranye dimulai dari ujung?", "Apakah tanaman kerdil dan anakannya sedikit?", "Apakah ada wereng hijau di sekitar tanaman?"],
+        "kondisi": "Daun kuning oranye dari ujung, tanaman kerdil, anakan sedikit, ada wereng hijau",
+        "kemungkinan": "Penyakit tungro yang dibawa wereng hijau",
+        "ciri_pembeda": "Warna kuning-oranye dimulai dari ujung daun, tanaman kerdil dan anakan sedikit. Berbeda dari kekurangan nitrogen yang pucat merata tanpa kerdil parah.",
+        "saran": ["Cabut dan benamkan rumpun yang sakit", "Kendalikan wereng hijau, misalnya dengan penyiangan dan pengelolaan sesuai anjuran PPL", "Segera hubungi PPL karena penyakit ini menular lewat wereng"],
+        "pencegahan": ["Tanam serempak", "Gunakan varietas tahan tungro", "Atur pergiliran tanaman dan waktu tanam sesuai anjuran setempat"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Pucuk padi mati atau malai putih hampa",
+        "sinonim_gejala": ["sundep", "beluk", "penggerek batang", "pucuk mati mudah dicabut", "malai putih"],
+        "pertanyaan_lanjutan": ["Apakah pucuk tanaman muda mengering dan mudah dicabut?", "Apakah malai berwarna putih dan bulirnya hampa saat padi mulai berbulir?"],
+        "kondisi": "Pucuk mati dan mudah dicabut pada tanaman muda, atau malai putih dan hampa saat berbulir",
+        "kemungkinan": "Serangan penggerek batang padi (sundep pada fase muda dan beluk pada fase berbulir)",
+        "ciri_pembeda": "Bagian pucuk atau malai mengering sementara bagian lain masih hijau, dan batang berlubang jika dibelah.",
+        "saran": ["Bersihkan dan benamkan tunggul jerami setelah panen", "Kumpulkan dan musnahkan kelompok telur jika terlihat", "Hubungi PPL untuk anjuran pengendalian yang sesuai, misalnya perangkap feromon"],
+        "pencegahan": ["Tanam serempak", "Atur waktu tanam agar tidak bertepatan dengan puncak populasi hama"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Daun padi menguning pucat merata",
+        "sinonim_gejala": ["kuning pucat", "padi kurus", "daun tua kuning", "kurang pupuk", "anakan sedikit"],
+        "pertanyaan_lanjutan": ["Apakah yang menguning terutama daun tua dan warnanya merata di seluruh petak?", "Kapan terakhir sawah dipupuk?"],
+        "kondisi": "Daun tua menguning pucat merata, tidak ada bercak atau hama, lama tidak dipupuk",
+        "kemungkinan": "Kekurangan unsur hara, terutama nitrogen",
+        "ciri_pembeda": "Menguning merata di seluruh petak, tanpa bercak, hama, atau rumpun yang mengering melingkar.",
+        "saran": ["Berikan pupuk nitrogen sesuai anjuran dosis dan waktu dari PPL setempat", "Gunakan Bagan Warna Daun (BWD) jika tersedia untuk menentukan kebutuhan pupuk", "Pupuk bertahap dan berimbang"],
+        "pencegahan": ["Buat jadwal pemupukan sejak awal tanam", "Tambahkan bahan organik seperti kompos atau jerami yang dibenamkan"],
+        "urgensi": "rendah"
+      }
+    ]
+  },
+  {
+    "tanaman": "Jagung",
+    "alias": ["jagung", "jagong"],
+    "kasus": [
+      {
+        "gejala_utama": "Daun berlubang dan pucuk rusak",
+        "sinonim_gejala": ["daun bolong", "daun bolong-bolong", "ulat di pucuk", "serbuk di pucuk", "ulat grayak"],
+        "pertanyaan_lanjutan": ["Apakah lubang tidak beraturan dan ada di daun yang masih menggulung di pucuk?", "Apakah ada ulat atau serbuk seperti kotoran di sekitar pucuk tanaman?"],
+        "kondisi": "Lubang tidak beraturan di daun muda, ada ulat dan serbuk kotoran di pucuk",
+        "kemungkinan": "Serangan ulat grayak pada pucuk jagung",
+        "ciri_pembeda": "Serbuk halus mirip kotoran di pucuk, ulat bersembunyi di dalam gulungan daun, dan lubang berkelompok.",
+        "saran": ["Periksa tanaman pagi atau sore hari lalu ambil dan matikan ulat yang terlihat", "Gunakan pestisida nabati jika serangan masih ringan", "Jika serangan meluas, gunakan insektisida sesuai aturan pakai di kemasan dan pakai pelindung diri"],
+        "pencegahan": ["Pantau lahan rutin sejak tanaman muda", "Bersihkan gulma", "Tanam serempak"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Daun bergaris kuning putih dan tanaman kerdil",
+        "sinonim_gejala": ["bulai", "garis-garis kuning", "garis putih sejajar", "tanaman kerdil", "tongkol tidak normal"],
+        "pertanyaan_lanjutan": ["Apakah garis kuning atau putih memanjang sejajar tulang daun?", "Apakah tanaman terlihat kerdil dan pagi hari ada lapisan putih seperti tepung di bawah daun?"],
+        "kondisi": "Garis kuning-putih sejajar tulang daun, tanaman kerdil, ada lapisan putih di bawah daun saat pagi",
+        "kemungkinan": "Penyakit bulai akibat jamur",
+        "ciri_pembeda": "Garis-garis kuning atau putih memanjang sejajar tulang daun disertai tanaman kerdil. Sering muncul pada tanaman muda dan cuaca lembap.",
+        "saran": ["Cabut dan musnahkan tanaman yang terserang sebelum menyebar", "Hubungi PPL untuk anjuran pengendalian yang sesuai di wilayah Anda", "Hindari menanam jagung terus-menerus di lahan yang sama"],
+        "pencegahan": ["Gunakan varietas tahan bulai", "Gunakan benih yang sudah diberi perlakuan sesuai anjuran", "Tanam serempak dan lakukan rotasi tanaman"],
+        "urgensi": "tinggi"
+      },
+      {
+        "gejala_utama": "Bercak memanjang coklat pada daun",
+        "sinonim_gejala": ["bercak cerutu", "bercak lonjong", "hawar daun", "daun mengering", "bercak besar"],
+        "pertanyaan_lanjutan": ["Apakah bercaknya memanjang seperti cerutu berwarna coklat keabuan?", "Apakah bercak mulai dari daun bawah lalu naik ke atas?"],
+        "kondisi": "Bercak memanjang seperti cerutu coklat keabuan, mulai dari daun bawah",
+        "kemungkinan": "Penyakit hawar daun akibat jamur",
+        "ciri_pembeda": "Bercak besar memanjang seperti cerutu, bukan garis sejajar tulang daun (bulai) dan bukan lubang akibat ulat.",
+        "saran": ["Bersihkan sisa tanaman sakit dari lahan", "Jika serangan meluas, gunakan fungisida sesuai aturan pakai di kemasan", "Hindari menanam jagung terus-menerus di lahan yang sama"],
+        "pencegahan": ["Gunakan varietas tahan", "Lakukan rotasi tanaman", "Atur jarak tanam agar udara lancar"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Daun jagung ungu kemerahan",
+        "sinonim_gejala": ["daun ungu", "daun merah", "tanaman muda ungu", "kurang fosfor"],
+        "pertanyaan_lanjutan": ["Apakah warna ungu muncul pada tanaman muda dan terutama di daun bawah?", "Apakah cuaca atau tanah belakangan dingin atau tanahnya sangat asam?"],
+        "kondisi": "Daun bawah tanaman muda berwarna ungu kemerahan, cuaca atau tanah dingin",
+        "kemungkinan": "Kekurangan fosfor atau akar sulit menyerap hara karena tanah dingin atau asam",
+        "ciri_pembeda": "Tidak ada bercak atau hama, hanya warna ungu kemerahan pada daun tanaman muda.",
+        "saran": ["Berikan pupuk yang mengandung fosfor sesuai anjuran", "Periksa keasaman tanah dan sesuaikan sesuai anjuran penyuluh", "Tambahkan pupuk kandang atau kompos"],
+        "pencegahan": ["Pemupukan dasar yang cukup saat tanam", "Tanam saat suhu sudah cukup hangat"],
+        "urgensi": "rendah"
+      }
+    ]
+  },
+  {
+    "tanaman": "Umum (semua tanaman)",
+    "kasus": [
+      {
+        "gejala_utama": "Daun menguning",
+        "sinonim_gejala": ["kuning", "kekuningan", "pucat"],
+        "pertanyaan_lanjutan": ["Tanaman apa yang mengalami hal ini?", "Apakah tanahnya sering becek atau justru kering?", "Bagian mana yang menguning lebih dulu, daun tua di bawah atau daun muda di pucuk?"],
+        "kondisi": "Jenis tanaman belum memiliki data khusus",
+        "kemungkinan": "Penyebab umum: kelebihan air (akar rusak), kurang air, kurang unsur hara, atau serangan hama dan penyakit",
+        "ciri_pembeda": "Daun tua menguning merata cenderung kurang hara. Tanah becek dengan akar lembek cenderung kelebihan air. Daun muda menguning cerah disertai keriting dan kerdil cenderung virus atau hama.",
+        "saran": ["Periksa drainase dan kelembapan tanah", "Periksa bagian bawah daun untuk mencari hama", "Beri pupuk berimbang sesuai anjuran jika tidak ada tanda kelebihan air atau hama"],
+        "pencegahan": ["Jaga penyiraman tetap teratur", "Beri pupuk dasar dan pupuk susulan sesuai kebutuhan tanaman"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Tanaman layu",
+        "sinonim_gejala": ["layu", "loyo", "lemas", "layu mendadak"],
+        "pertanyaan_lanjutan": ["Tanaman apa yang layu?", "Apakah tanaman segar kembali menjelang sore atau tetap layu seharian?", "Apakah daunnya masih hijau saat layu?"],
+        "kondisi": "Jenis tanaman belum memiliki data khusus",
+        "kemungkinan": "Penyebab umum: kekurangan air atau cekaman panas (layu sementara), atau penyakit layu yang menyerang akar dan batang (layu menetap)",
+        "ciri_pembeda": "Jika segar kembali di sore atau pagi hari, biasanya kekurangan air. Jika tetap layu seharian dan tidak pulih meski disiram, curigai penyakit akar atau batang.",
+        "saran": ["Siram pada pagi atau sore hari jika tanah kering", "Jika layu tidak pulih, periksa pangkal batang dan akar apakah ada busuk atau berubah warna", "Cabut dan musnahkan tanaman yang sudah pasti sakit agar tidak menular", "Untuk kasus meluas, hubungi penyuluh pertanian setempat"],
+        "pencegahan": ["Perbaiki drainase", "Jangan menanam jenis tanaman yang sama terus-menerus di lahan yang sama"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Daun bolong atau digigit",
+        "sinonim_gejala": ["daun berlubang", "daun bolong-bolong", "dimakan ulat", "daun habis dimakan", "ada ulat"],
+        "pertanyaan_lanjutan": ["Tanaman apa yang daunnya berlubang?", "Apakah ada ulat, kumbang, atau keong yang terlihat, terutama pagi, sore, atau malam hari?"],
+        "kondisi": "Jenis tanaman belum memiliki data khusus, ada bekas gigitan pada daun",
+        "kemungkinan": "Serangan hama pemakan daun seperti ulat, kumbang, belalang, atau keong",
+        "ciri_pembeda": "Lubang tidak beraturan biasanya ulat atau kumbang, tepi daun dimakan rata biasanya belalang, bekas lendir mengilap biasanya keong atau siput.",
+        "saran": ["Periksa tanaman pagi, sore, atau malam hari untuk menemukan hama", "Ambil dan matikan hama yang terlihat secara manual", "Gunakan pestisida nabati jika serangan masih ringan", "Jika serangan meluas, gunakan insektisida sesuai aturan pakai di kemasan"],
+        "pencegahan": ["Bersihkan gulma dan sisa tanaman", "Pantau tanaman secara rutin"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Daun berlapis serbuk putih",
+        "sinonim_gejala": ["embun tepung", "serbuk putih", "seperti tepung", "daun putih", "jamur putih"],
+        "pertanyaan_lanjutan": ["Tanaman apa yang mengalami ini?", "Apakah lapisan putih bisa diusap dengan jari dan seperti tepung?", "Apakah tanaman ditanam rapat atau di tempat teduh lembap?"],
+        "kondisi": "Jenis tanaman belum memiliki data khusus, lapisan putih seperti tepung di permukaan daun",
+        "kemungkinan": "Penyakit embun tepung akibat jamur",
+        "ciri_pembeda": "Lapisan putih seperti tepung di permukaan daun yang dapat diusap. Sering muncul saat udara lembap, kurang cahaya, dan tanaman terlalu rapat.",
+        "saran": ["Buang dan musnahkan daun yang terserang", "Perbaiki sirkulasi udara dengan memangkas atau mengatur jarak tanam", "Jika serangan meluas, gunakan fungisida sesuai aturan pakai di kemasan"],
+        "pencegahan": ["Hindari menyiram dari atas daun", "Beri tanaman cukup sinar matahari dan jarak tanam yang longgar"],
+        "urgensi": "sedang"
+      },
+      {
+        "gejala_utama": "Bercak pada daun",
+        "sinonim_gejala": ["bercak coklat", "bercak hitam", "bercak bulat", "daun bercak"],
+        "pertanyaan_lanjutan": ["Tanaman apa yang daunnya bercak?", "Seperti apa bentuk dan warna bercaknya, dan apakah menyebar cepat saat hujan?"],
+        "kondisi": "Jenis tanaman belum memiliki data khusus, ada bercak pada daun",
+        "kemungkinan": "Penyakit bercak daun akibat jamur atau bakteri, umumnya berkaitan dengan kelembapan tinggi",
+        "ciri_pembeda": "Bercak berbeda jenis dari bentuk dan tepinya. Yang menyebar cepat saat hujan lebih berisiko dan perlu penanganan segera.",
+        "saran": ["Buang dan musnahkan daun yang bercak", "Kurangi kelembapan dengan mengatur jarak tanam dan menghindari penyiraman dari atas daun", "Jika menyebar cepat, hubungi penyuluh pertanian setempat"],
+        "pencegahan": ["Bersihkan sisa tanaman dari lahan", "Lakukan rotasi tanaman"],
+        "urgensi": "sedang"
+      }
+    ]
+  }
+]

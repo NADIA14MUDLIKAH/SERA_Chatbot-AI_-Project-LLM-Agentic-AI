@@ -1,0 +1,13 @@
+# Mengabaikan file rahasia
+.env
+venv/
+
+# Mengabaikan cache/file sampah bawaan Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Mengabaikan file riwayat percakapan yang tersimpan,
+# TETAPI tetap mempertahankan folder history-nya
+history/*.json
+!history/.gitkeep
