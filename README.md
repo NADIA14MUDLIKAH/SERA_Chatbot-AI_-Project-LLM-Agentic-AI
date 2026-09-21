@@ -92,6 +92,7 @@ Berikut adalah dokumentasi visual saat sistem merespons keluhan dan mengingat ko
 ![alt text](<Screenshoot/ss_web 4.png>)
 ![alt text](<Screenshoot/ss_web 5.png>)
 ![alt text](<Screenshoot/ss_web 6.png>)
+
 *Gambar di atas merupakan tampilan SERA pada web. Bagian kiri memuat panel kontrol (ide cepat, cara kerja, simpan riwayat, dan percakapan baru), sedangkan bagian tengah memuat area percakapan dalam bentuk chat bubble.*
 
 ## 3. Contoh Alur Percakapan
@@ -180,6 +181,7 @@ SERA_Project/
 ├── logo.jpg
 ├── README.md
 └── requirements.txt
+```
 
 - **`data/knowledge_base.json`**: File statis berisi data-data pertanian yang menjadi acuan dasar bagi AI agar jawabannya tetap sesuai fakta. Data dikelompokkan per tanaman (cabai, tomat, padi, jagung, dan panduan umum) dan setiap kasus memuat gejala utama, sinonim gejala dalam bahasa sehari-hari, pertanyaan lanjutan, kondisi pendukung, kemungkinan penyebab, ciri pembeda, saran perawatan, pencegahan, dan tingkat urgensi.
 - **`src/config.py`**: File pengaturan untuk menentukan model AI yang dipakai (`openai/gpt-oss-120b`) dan mengatur agar jawabannya tidak terlalu melenceng.
@@ -196,26 +198,20 @@ SERA_Project/
 
 Dalam pengerjaan proyek ini, penulis memanfaatkan asisten AI (Claude dari Anthropic) pada beberapa bagian. Berikut pembagian antara bagian yang dibantu AI dan bagian yang dikerjakan secara mandiri.
 
-**Bagian yang dibantu AI:**
+**Bagian yang Dibantu AI**
+**streamlit/app.py** : Membantu perancangan ulang tampilan web, meliputi tata letak, penyesuaian warna dengan logo, chat bubble, panel kontrol, tombol ide cepat, serta perbaikan pewarnaan gelembung percakapan.
+**src/prompts.py** : Membantu menyempurnakan system prompt, meliputi perluasan cakupan dari tanaman cabai ke berbagai tanaman, penyusunan alur konsultasi bertahap, aturan keamanan, dan contoh percakapan (few-shot).
+**data/knowledge_base.json** : Membantu menyusun draf perluasan basis pengetahuan dari 3 kasus awal (cabai) menjadi 32 kasus yang mencakup cabai, tomat, padi, jagung, dan panduan umum, serta menambahkan field baru berdasarkan pengetahuan agronomi umum.
+**src/knowledge_base.py dan src/conversation.py** : Membantu menambahkan mekanisme pemilihan kasus yang relevan serta pembatasan riwayat pesan untuk mencegah galat batas token (rate limit) pada API Groq.
+**src/chatbot.py** : Membantu memperbaiki logika penyimpanan riwayat agar tetap lengkap serta memastikan pesan galat API tidak tersimpan sebagai respons asisten.
+**Debugging dan Dokumentasi** : Membantu menelusuri dan menyelesaikan berbagai galat selama pengembangan, seperti kesalahan pembacaan JSON, format data, dan rate limit, serta membantu menyempurnakan kalimat dokumentasi.
 
-| Bagian | Bentuk Bantuan AI |
-|---|---|
-| `streamlit/app.py` | Perancangan ulang tampilan web (tata letak, warna sesuai logo, chat bubble, panel kontrol, tombol ide cepat) dan perbaikan pewarnaan bubble percakapan. |
-| `src/prompts.py` | Penyempurnaan *system prompt*: perluasan cakupan dari tanaman cabai ke berbagai tanaman, penyusunan alur konsultasi, aturan keamanan, dan contoh percakapan (*few-shot*). |
-| `data/knowledge_base.json` | Penyusunan draf perluasan data dari 3 kasus (cabai) menjadi 32 kasus (cabai, tomat, padi, jagung, dan panduan umum) beserta penambahan field baru. Isi data disusun dari pengetahuan agronomi umum dan sebaiknya tetap diverifikasi kepada penyuluh pertanian. |
-| `src/knowledge_base.py` dan `src/conversation.py` | Penambahan mekanisme pemilihan kasus yang relevan dan pembatasan riwayat untuk mengatasi galat batas token (*rate limit*) pada Groq API. |
-| `src/chatbot.py` | Perbaikan agar riwayat yang disimpan tetap lengkap dan pesan galat API tidak tersimpan sebagai jawaban asisten. |
-| Debugging dan dokumentasi | Bantuan menelusuri pesan galat selama pengembangan (kesalahan pembacaan JSON, ketidaksesuaian format data, dan batas token) serta penyusunan kalimat pada README ini. |
+**Bagian yang Dikerjakan Mandiri**
+**Tema dan Konsep** :Menentukan tema asisten konsultasi pertanian serta merancang konsep utama konsultasi bertahap.
+**Kerangka Program** : Merancang struktur proyek dan membuat versi awal modul utama, yaitu config.py, llm_client.py, commands.py, chatbot.py, conversation.py, dan main.py.
+**Versi Awal Prompt dan Data** : Menyusun draf system prompt awal dan basis data awal pada knowledge_base.json.
+**Integrasi API** : Membuat akun dan API Key Groq, melakukan konfigurasi kredensial pada file .env, serta menguji konektivitas program dengan layanan API.
+**Pengujian Sistem** : Melakukan pengujian eksekusi program secara langsung, pengujian skenario percakapan multi-turn, serta validasi respons pada antarmuka terminal dan web.
+**Dokumentasi dan Repositori** : Mengambil cuplikan layar (screenshots), mengelola repositori GitHub, serta menyusun kerangka awal dokumen README.md.
 
-**Bagian yang dikerjakan mandiri:**
-
-| Bagian | Keterangan |
-|---|---|
-| Tema dan konsep | Penentuan tema asisten konsultasi pertanian dan konsep konsultasi bertahap. |
-| Kerangka program | Perancangan struktur proyek dan pembuatan versi awal modul (`config.py`, `llm_client.py`, `commands.py`, `chatbot.py`, `conversation.py`, `main.py`). |
-| Versi awal prompt dan data | Penyusunan *system prompt* awal dan data awal pada `knowledge_base.json`. |
-| Integrasi API | Pembuatan akun dan API Key Groq, pengaturan file `.env`, serta penghubungan program ke Groq API. |
-| Pengujian | Menjalankan program, mencoba berbagai skenario percakapan, dan memeriksa hasilnya di terminal maupun web. |
-| Dokumentasi | Pengambilan cuplikan layar, penyusunan repositori GitHub, dan penulisan kerangka awal README. |
-
-Seluruh keluaran dari AI dijalankan dan diuji langsung oleh penulis sebelum digunakan pada proyek ini.
+**Catatan**: Seluruh keluaran dari AI telah melalui proses peninjauan, pengujian secara langsung, dan penyesuaian mandiri sebelum diterapkan pada versi akhir proyek.
